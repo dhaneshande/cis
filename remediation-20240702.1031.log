@@ -1,0 +1,2475 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'prelink' is not installed, so not removed
+0 upgraded, 0 + echo 'Remediating rule 2/277: '\''package_aide_iReading package lists...
+Building dependency tree...
+Reading state information...
+aide is already the newest version (0.16.1-1ubuntu0.1).
++ echo 'Remediating rule 3/277: '\''aide_build_database'\'''
++ 'Reading package lists...
+Building dependency tree...
+Reading state information...
+aide is already the newest version (0.1+ AIDE_CONFIG=/etc/aide/aide.conf
++ DEFAULT_DB_PATH=/var/lib/aide/aide.db
++ grep Start timestamp: 2024-07-02 10:32:30 +0000 (AIDE 0.16.1)
+AIDE initialized database at /var/lib/aide/aide.db.new
+Verbose + echo 'Remediating rule 4/277: '\''aide_periodic_cron_checking'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get install -y aide
++ egrep -q '^(/usr/bin/)?aide\.wrapper\s+' /etc/cron.d/OMSConsistencyInvoker /etc/cron.d/e2scrub_all /etc/cron.d/omilogrotate /etc/cron.d/omsagent /etc/cron.d/popularity-contest /etc/cron.d/scxagent /etc/cron.daily/aide /etc/cron.daily/apport /etc/cron.daily/apt-compat /etc/cron.daily/bsdmainutils /etc/cron.daily/cracklib-runtime /etc/cron.daily/dpkg /etc/cron.daily/logrotate /etc/cron.daily/man-db /etc/cron.daily/popularity-contest /etc/cron.daily/update-notifier-common /etc/cron.weekly/man-db /etc/cron.weekly/update-notifier-common
++ echo 'Remediating rule 5/277: '\''partition_for_tmp'\'''
++ echo 'Remediating rule 6/277: '\''package_gdm_removed'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' gdm3
++ Reading package lists...
+Building dependency tree...
+Reading state information...
+sudo is already the newest version (1.8.31-1ubuntu1.5).
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Defaults use_pty
+Defaults logfile=/var/log/sudo.log
+Defaults logfile=/var/log/sudo.log
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libpam-pwquality is already the newest version (1.4.2-1build1).
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+password	[success=1 default=ignore]	pam_unix.so obscure use_authtok try_first_pass sha512
+usermod: no changes
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apparmor is already the newest version (2.13.3-7ubuntu5.3).
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+rsyslog is already the newest version (8.2001.0-1ubuntu1.3).
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+iptables-persistent is already the newest version (1.0.14ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+iptables is already the newest version (1.8.4-3ubuntu2.1).
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following package was automatically installed and is no longer required:
+  netfilter-persistent
+Use 'sudo apt autoremove' to remove it.
+The following packages will be REMOVED:
+  iptables-persistent
+0 upgraded, 0 newly installed, 1 to remove and 16 not upgraded.
+After this operation, 50.2 kB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 96042 files and directories currently installed.)
+Removing iptables-persistent (1.0.14ubuntu1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  iptables-persistent
+Preconfiguring packages ...
+0 upgraded, 1 newly installed, 0 to remove and 16 not upgraded.
+Need to get 0 B/6552 B of archives.
+After this operation, 50.2 kB of additional disk space will be used.
+Selecting previously unselected package iptables-persistent.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 96037 files and directories currently installed.)
+Preparing to unpack .../iptables-persistent_1.0.14ubuntu1_all.deb ...
+Unpacking iptables-persistent (1.0.14ubuntu1) ...
+Setting up iptables-persistent (1.0.14ubuntu1) ...
+update-alternatives: using /lib/systemd/system/netfilter-persistent.service to provide /lib/systemd/system/iptables.service (iptables.service) in auto mode
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'nftables' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'ufw' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'avahi-daemon' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'nis' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'isc-dhcp-server' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'bind9' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'vsftpd' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'apache2' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'dovecot-core' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'ldap-utils' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'slapd' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'nfs-kernel-server' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'rpcbind' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+chrony is already the newest version (3.5-6ubuntu6.2).
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'ntp' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'rsync' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'openbsd-inetd' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'xinetd' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'rsh-client' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'talk' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'telnet' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'cups' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'squid' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'samba' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'snmp' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'xserver-xorg' is not installed, so not removed
+0 upgraded, 0 newly installed, 0 to remove and 16 not upgraded.
+t -L /etc/security/pwquality.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=ocredit
++ printf -v formatted_output '%s = %s' ocredit -1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^ocredit\>' /etc/security/pwquality.conf
++ sed -i 's/^ocredit\>.*/ocredit = -1/gi' /etc/security/pwquality.conf
++ echo 'Remediating rule 30/277: '\''accounts_password_pam_retry'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' libpam-runtime
++ var_password_pam_retry=3
++ ensure_pam_module_options /etc/pam.d/common-password password requisite pam_pwquality.so retry 3 3 bottom
++ '[' 8 -lt 8 ']'
++ '[' 8 -gt 9 ']'
++ local _pamFile=/etc/pam.d/common-password _type=password _control=requisite _module=pam_pwquality.so _option=retry _valueRegex=3 _defaultValue=3 _position=bottom
++ local _remove_argument=
++ '[' 8 -eq 9 ']'
++ '[' -e /etc/pam.d/common-password ']'
++ '[' '' = yes -o '' = true ']'
++ '[' -n 3 ']'
++ _valueRegex==3
++ '[' -n 3 ']'
++ _defaultValue==3
++ grep -q -P '^\s*(?!password\s)[[:alnum:]]+\s+[[:alnum:]]+\s+pam_pwquality.so'
++ grep -q -P '^\s*password\s+(?!requisite)[[:alnum:]]+\s+pam_pwquality.so'
++ grep -q -P '^\s*password\s+requisite\s+pam_pwquality.so(\s.+)?\s+retry(?!=3(\s|$))'
++ grep -q -E '^\s*password\s+requisite\s+pam_pwquality.so'
++ grep -q -E -v '\sretry(=|\s|$)'
++ grep -E '^\s*password\s+requisite\s+pam_pwquality.so'
++ grep -q -P '^\s*password\s+requisite\s+pam_pwquality.so(\s.+)?\s+retry=3(\s|$)'
++ echo 'Remediating rule 31/277: '\''accounts_password_pam_ucredit'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' libpam-runtime
++ var_password_pam_ucredit=-1
++ sed_command=('sed' '-i')
++ test -L /etc/security/pwquality.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=ucredit
++ printf -v formatted_output '%s = %s' ucredit -1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^ucredit\>' /etc/security/pwquality.conf
++ sed -i 's/^ucredit\>.*/ucredit = -1/gi' /etc/security/pwquality.conf
++ echo 'Remediating rule 32/277: '\''single_user_authentication'\'''
++ var_root_passwd_hash='*'
++ '[' -n '*' ']'
++ '[' '*' '!=' '*' ']'
++ echo 'Remediating rule 33/277: '\''account_disable_post_pw_expiration'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' login
++ var_account_disable_post_pw_expiration=30
++ sed_command=('sed' '-i')
++ test -L /etc/default/useradd
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=INACTIVE
++ printf -v formatted_output %s=%s INACTIVE 30
++ LC_ALL=C
++ grep -q -m 1 -i -e '^INACTIVE\>' /etc/default/useradd
++ sed -i 's/^INACTIVE\>.*/INACTIVE=30/gi' /etc/default/useradd
++ echo 'Remediating rule 34/277: '\''accounts_maximum_age_login_defs'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' login
++ var_accounts_maximum_age_login_defs=365
++ grep -q '^PASS_MAX_DAYS' /etc/login.defs
++ sed -i 's/PASS_MAX_DAYS.*/PASS_MAX_DAYS     365/g' /etc/login.defs
++ '[' 0 -eq 0 ']'
++ echo 'Remediating rule 35/277: '\''accounts_minimum_age_login_defs'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' login
++ var_accounts_minimum_age_login_defs=1
++ grep -q '^PASS_MIN_DAYS' /etc/login.defs
++ sed -i 's/PASS_MIN_DAYS.*/PASS_MIN_DAYS     1/g' /etc/login.defs
++ '[' 0 -eq 0 ']'
++ echo 'Remediating rule 36/277: '\''accounts_password_set_max_life_existing'\'''
++ var_accounts_password_set_max_life_existing=365
+++ cut -d: -f1
+++ egrep '^[^:]+:[^!*]' /etc/shadow
++ for usr in $(egrep ^[^:]+:[^\!*] /etc/shadow | cut -d: -f1)
++ chage --maxdays 365 esp
++ echo 'Remediating rule 37/277: '\''accounts_password_set_min_life_existing'\'''
++ var_accounts_password_set_min_life_existing=1
+++ cut -d: -f1
+++ egrep '^[^:]+:[^!*]' /etc/shadow
++ for usr in $(egrep ^[^:]+:[^\!*] /etc/shadow | cut -d: -f1)
++ chage --mindays 1 esp
++ echo 'Remediating rule 38/277: '\''accounts_password_warn_age_login_defs'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' login
++ var_accounts_password_warn_age_login_defs=7
++ grep -q '^PASS_WARN_AGE' /etc/login.defs
++ sed -i 's/PASS_WARN_AGE.*/PASS_WARN_AGE\t7/g' /etc/login.defs
++ '[' 0 -eq 0 ']'
++ echo 'Remediating rule 39/277: '\''last_change_date_in_past'\'''
++ echo 'Remediating rule 40/277: '\''accounts_password_all_shadowed_sha512'\'''
++ grep '^password\s\+.*\bpam_unix\.so\b.*\bsha512\b' /etc/pam.d/common-password
++ echo 'Remediating rule 41/277: '\''all_etc_passwd_groups_exist_in_etc_group'\'''
+++ sort -u
+++ cut -s -d: -f4 /etc/passwd
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:0:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:1:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:10:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:100:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:1000:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:102:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:103:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:104:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:106:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:110:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:111:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:112:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:113:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:115:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:116:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:12:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:121:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:123:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:13:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:2:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:3:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:33:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:34:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:38:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:39:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:41:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:60:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:65534:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:7:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:8:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:9:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:994:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:995:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:997:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:998:' /etc/group
++ '[' 0 -ne 0 ']'
++ for i in $(cut -s -d: -f4 /etc/passwd | sort -u )
++ grep -q -P '^.*?:[^:]*:999:' /etc/group
++ '[' 0 -ne 0 ']'
++ echo 'Remediating rule 42/277: '\''ensure_shadow_group_empty'\'''
++ echo 'Remediating rule 43/277: '\''no_duplicate_gids'\'''
++ echo 'Remediating rule 44/277: '\''no_duplicate_group_names'\'''
++ echo 'Remediating rule 45/277: '\''no_duplicate_uids'\'''
++ echo 'Remediating rule 46/277: '\''no_duplicate_user_names'\'''
++ echo 'Remediating rule 47/277: '\''no_empty_password_field'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
+++ awk -F: '($2 == "" ) { print $1 }'
+++ cat /etc/shadow
++ echo 'Remediating rule 48/277: '\''no_group_world_readable_netrc_files'\'''
++ read user dir
++ fetch_users_and_homedir
++ awk -F: '($7 != "/usr/sbin/nologin" && $7 != "/bin/false" && $3 >= 1000)\
+     { print $1 " " $6 }'
++ egrep -v '^(halt|sync|shutdown)'
++ cat /etc/passwd
++ chmod -f og-rwx /home/esp/.netrc
++ read user dir
++ echo 'Remediating rule 49/277: '\''no_netrc_files'\'''
++ echo 'Remediating rule 50/277: '\''accounts_no_gid_except_zero'\'''
++ usermod -g 0 root
++ echo 'Remediating rule 51/277: '\''accounts_no_uid_except_zero'\'''
++ xargs --max-lines=1 passwd -l
++ awk -F: '$3 == 0 && $1 != "root" { print $1 }' /etc/passwd
++ echo 'Remediating rule 52/277: '\''ensure_pam_wheel_group_empty'\'''
++ var_pam_wheel_group_for_su=sugroup
++ GRP_FILE=/etc/group
++ grep -q '^sugroup:[^:]*:[^:]*:[^:]*' /etc/group
++ '[' 0 -ne 0 ']'
+++ groupmems -g sugroup -l
++ grp_memb=
++ '[' -n '' ']'
++ echo 'Remediating rule 53/277: '\''no_shelllogin_for_systemaccounts'\'''
++ read -r user
+++ awk '/^\s*UID_MIN/{print $2}' /etc/login.defs
+++ which nologin
++ awk -F: '($1!="root" && $1!="sync" && $1!="shutdown" && $1!="halt" && $1!~/^\+/ && $3<1000 && $7!="/usr/sbin/nologin" && $7!="/bin/false") {print $1}' /etc/passwd
++ awk '($2!="L" && $2!="LK") {print $1}'
++ read -r user
++ xargs -I '{}' passwd -S '{}'
+++ awk '/^\s*UID_MIN/{print $2}' /etc/login.defs
++ awk -F: '($1!="root" && $1!~/^\+/ && $3<1000) {print $1}' /etc/passwd
++ echo 'Remediating rule 54/277: '\''use_pam_wheel_group_for_su'\'''
++ var_pam_wheel_group_for_su=sugroup
++ PAM_CONF=/etc/pam.d/su
+++ grep -P '^auth\s+required\s+pam_wheel\.so\s+(?=[^#]*\buse_uid\b)(?=[^#]*\bgroup=)' /etc/pam.d/su
++ pamstr='auth required pam_wheel.so use_uid group=sugroup'
++ '[' -z 'auth required pam_wheel.so use_uid group=sugroup' ']'
+++ cut -d = -f 2
+++ egrep -o '\bgroup=[_a-z][-0-9_a-z]*'
+++ echo -n 'auth required pam_wheel.so use_uid group=sugroup'
++ group_val=sugroup
++ '[' -z sugroup ']'
++ '[' sugroup '!=' sugroup ']'
++ echo 'Remediating rule 55/277: '\''accounts_tmout'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_accounts_tmout=600
++ tmout_found=0
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/01-locale-fix.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/Z97-byobu.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/Z99-cloud-locale-test.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/Z99-cloudinit-warnings.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/apps-bin-path.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/bash_completion.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/cedilla-portuguese.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/gawk.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/linux-base-sgx.sh
++ for f in /etc/profile /etc/profile.d/*.sh
++ grep --silent '^\s*TMOUT' /etc/profile.d/tmout.sh
++ sed -i -E 's/^(\s*)TMOUT\s*=\s*(\w|$)*(.*)$/\1TMOUT=600\3/g' /etc/profile.d/tmout.sh
++ tmout_found=1
++ '[' 1 -eq 0 ']'
++ echo 'Remediating rule 56/277: '\''accounts_user_dot_user_ownership'\'''
++ read user dir
++ fetch_users_and_homedir
++ awk -F: '($7 != "/usr/sbin/nologin" && $7 != "/bin/false" && $3 >= 1000)\
+     { print $1 " " $6 }'
++ egrep -v '^(halt|sync|shutdown)'
++ cat /etc/passwd
++ find /home/esp -maxdepth 1 -iname '.*' -type f -execdir chown esp '{}' ';'
++ read user dir
++ echo 'Remediating rule 57/277: '\''accounts_user_interactive_home_directory_exists'\'''
++ echo 'Remediating rule 58/277: '\''accounts_users_own_home_directories'\'''
++ read user dir
++ fetch_users_and_homedir
++ awk -F: '($7 != "/usr/sbin/nologin" && $7 != "/bin/false" && $3 >= 1000)\
+     { print $1 " " $6 }'
++ egrep -v '^(halt|sync|shutdown)'
++ cat /etc/passwd
++ chown esp /home/esp
++ read user dir
++ echo 'Remediating rule 59/277: '\''adduser_home_directories_mode'\'''
++ var_adduser_home_directories_mode=0750
++ valid_mode=0750
++ adduser_conf=/etc/adduser.conf
+++ awk -F= '/^\s*DIR_MODE\s*=\s*[0-7]?[0-7]{3}/{ printf("%04d", strtonum($2)) }' /etc/adduser.conf
++ dir_mode=0750
++ '[' -z 0750 ']'
++ '[' 488 -ne 0750 ']'
++ sed -i '/^\s*DIR_MODE\b/d' /etc/adduser.conf
++ echo DIR_MODE=0750
++ echo 'Remediating rule 60/277: '\''file_permissions_home_directories'\'''
++ read user dir
++ fetch_users_and_homedir
++ awk -F: '($7 != "/usr/sbin/nologin" && $7 != "/bin/false" && $3 >= 1000)\
+     { print $1 " " $6 }'
++ egrep -v '^(halt|sync|shutdown)'
++ cat /etc/passwd
++ chmod o-wrx,g-w /home/esp
++ read user dir
++ echo 'Remediating rule 61/277: '\''no_forward_files'\'''
++ echo 'Remediating rule 62/277: '\''no_group_world_writable_dot_files'\'''
++ read user dir
++ fetch_users_and_homedir
++ awk -F: '($7 != "/usr/sbin/nologin" && $7 != "/bin/false" && $3 >= 1000)\
+     { print $1 " " $6 }'
++ egrep -v '^(halt|sync|shutdown)'
++ cat /etc/passwd
++ find /home/esp -maxdepth 1 -iname '.*' -type f -execdir chmod o-w,g-w '{}' ';'
++ read user dir
++ echo 'Remediating rule 63/277: '\''useradd_home_directories_mode'\'''
++ var_useradd_home_directories_mode=0750
++ valid_mode=0750
++ useradd_conf=/etc/login.defs
+++ awk -F= '/^\s*HOME_MODE\s*=\s*[0-7]?[0-7]{3}/{ printf("%04d", strtonum($2)) }' /etc/login.defs
++ home_mode=
++ '[' -z '' ']'
++ sed -i '/^\s*HOME_MODE\b/d' /etc/login.defs
++ echo -e 'HOME_MODE\t0750'
++ echo 'Remediating rule 64/277: '\''accounts_root_path_dirs_no_write'\'''
+++ fix_path /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+++ local 'path_segments=/usr/local/sbin
+/usr/local/bin
+/usr/sbin
+/usr/bin
+/sbin
+/bin
+/snap/bin'
+++ local new_path=
+++ local 'old_IFS= 	
+'
+++ IFS='
+'
+++ for path_part in $path_segments
+++ '[' -z /usr/local/sbin ']'
+++ '[' /usr/local/sbin == . ']'
++++ readlink -f /usr/local/sbin
+++ local old_part=/usr/local/sbin
+++ local have_part=false
+++ /bin/chmod o-w,g-w /usr/local/sbin
+++ '[' -z '' ']'
+++ new_path=/usr/local/sbin
+++ for path_part in $path_segments
+++ '[' -z /usr/local/bin ']'
+++ '[' /usr/local/bin == . ']'
++++ readlink -f /usr/local/bin
+++ local old_part=/usr/local/bin
+++ local have_part=false
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/local/bin == x/usr/local/sbin ']'
+++ /bin/chmod o-w,g-w /usr/local/bin
+++ '[' -z /usr/local/sbin ']'
+++ new_path=/usr/local/sbin:/usr/local/bin
+++ for path_part in $path_segments
+++ '[' -z /usr/sbin ']'
+++ '[' /usr/sbin == . ']'
++++ readlink -f /usr/sbin
+++ local old_part=/usr/sbin
+++ local have_part=false
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/sbin == x/usr/local/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/sbin == x/usr/local/bin ']'
+++ /bin/chmod o-w,g-w /usr/sbin
+++ '[' -z /usr/local/sbin:/usr/local/bin ']'
+++ new_path=/usr/local/sbin:/usr/local/bin:/usr/sbin
+++ for path_part in $path_segments
+++ '[' -z /usr/bin ']'
+++ '[' /usr/bin == . ']'
++++ readlink -f /usr/bin
+++ local old_part=/usr/bin
+++ local have_part=false
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/bin == x/usr/local/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/bin == x/usr/local/bin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/bin == x/usr/sbin ']'
+++ /bin/chmod o-w,g-w /usr/bin
+++ '[' -z /usr/local/sbin:/usr/local/bin:/usr/sbin ']'
+++ new_path=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+++ for path_part in $path_segments
+++ '[' -z /sbin ']'
+++ '[' /sbin == . ']'
++++ readlink -f /sbin
+++ local old_part=/usr/sbin
+++ local have_part=false
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/sbin == x/usr/local/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/sbin == x/usr/local/bin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/sbin == x/usr/sbin ']'
+++ have_part=true
+++ break
+++ /bin/chmod o-w,g-w /usr/sbin
+++ '[' -z /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin ']'
+++ new_path=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin
+++ for path_part in $path_segments
+++ '[' -z /bin ']'
+++ '[' /bin == . ']'
++++ readlink -f /bin
+++ local old_part=/usr/bin
+++ local have_part=false
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/bin == x/usr/local/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/bin == x/usr/local/bin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/bin == x/usr/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/usr/bin == x/usr/bin ']'
+++ have_part=true
+++ break
+++ /bin/chmod o-w,g-w /usr/bin
+++ '[' -z /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin ']'
+++ new_path=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin
+++ for path_part in $path_segments
+++ '[' -z /snap/bin ']'
+++ '[' /snap/bin == . ']'
++++ readlink -f /snap/bin
+++ local old_part=/snap/bin
+++ local have_part=false
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/snap/bin == x/usr/local/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/snap/bin == x/usr/local/bin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/snap/bin == x/usr/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/snap/bin == x/usr/bin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/snap/bin == x/usr/sbin ']'
+++ for new_part in ${new_path//:/'
+'}
+++ '[' x/snap/bin == x/usr/bin ']'
+++ /bin/chmod o-w,g-w /snap/bin
+++ '[' -z /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin ']'
+++ new_path=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin:/snap/bin
+++ IFS=' 	
+'
+++ echo /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin:/snap/bin
++ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin:/snap/bin
++ profile_paths='/etc/skel/.profile /etc/environment /etc/crontab /etc/bash.bashrc /etc/profile /root/.profile /root/.bashrc'
++ /usr/bin/sed -i 's|^PATH=.*|PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin:/snap/bin|g' /etc/skel/.profile /etc/environment /etc/crontab /etc/bash.bashrc /etc/profile /root/.profile /root/.bashrc
++ /usr/bin/sed -i 's|^\(.*\s\)PATH=.*|\1PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin:/snap/bin|g' /etc/skel/.profile /etc/environment /etc/crontab /etc/bash.bashrc /etc/profile /root/.profile /root/.bashrc
++ defs_path=/etc/login.defs
++ /usr/bin/sed -i 's|^\(.*\s\)PATH=.*|\1PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/sbin:/usr/bin:/snap/bin|g' /etc/login.defs
++ echo 'Remediating rule 65/277: '\''accounts_umask_etc_bashrc'\'''
++ var_accounts_user_umask=027
++ grep -q umask /etc/bashrc
++ sed -i 's/umask.*/umask 027/g' /etc/bashrc
++ '[' 0 -eq 0 ']'
++ echo 'Remediating rule 66/277: '\''accounts_umask_etc_csh_cshrc'\'''
++ var_accounts_user_umask=027
++ grep -q umask /etc/csh.cshrc
++ sed -i 's/umask.*/umask 027/g' /etc/csh.cshrc
++ '[' 0 -eq 0 ']'
++ echo 'Remediating rule 67/277: '\''accounts_umask_etc_login_defs'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' login
++ var_accounts_user_umask=027
++ sed_command=('sed' '-i')
++ test -L /etc/login.defs
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=UMASK
++ printf -v formatted_output '%s %s' UMASK 027
++ LC_ALL=C
++ grep -q -m 1 -i -e '^UMASK\>' /etc/login.defs
++ sed -i 's/^UMASK\>.*/UMASK 027/gi' /etc/login.defs
++ echo 'Remediating rule 68/277: '\''accounts_umask_etc_profile'\'''
++ var_accounts_user_umask=027
++ grep -q umask /etc/profile
++ sed -i 's/umask.*/umask 027/g' /etc/profile
++ '[' 0 -eq 0 ']'
++ echo 'Remediating rule 69/277: '\''accounts_umask_interactive_users'\'''
++ echo 'Remediating rule 70/277: '\''package_apparmor_installed'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get install -y apparmor
++ echo 'Remediating rule 71/277: '\''ensure_apparmor_enforce_or_complain'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_set_apparmor_enforce_mode=false
++ local lvl1_aa_enforce=false
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' apparmor
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' apparmor-utils
++ '[' -z '' ']'
++ aa-complain /etc/apparmor.d/abi /etc/apparmor.d/abstractions /etc/apparmor.d/disable /etc/apparmor.d/force-complain /etc/apparmor.d/local /etc/apparmor.d/lsb_release /etc/apparmor.d/nvidia_modprobe /etc/apparmor.d/sbin.dhclient /etc/apparmor.d/tunables /etc/apparmor.d/ubuntu_pro_apt_news /etc/apparmor.d/ubuntu_pro_esm_cache /etc/apparmor.d/usr.bin.man /etc/apparmor.d/usr.lib.snapd.snap-confine.real /etc/apparmor.d/usr.sbin.chronyd /etc/apparmor.d/usr.sbin.rsyslogd /etc/apparmor.d/usr.sbin.tcpdump
++ echo 'Remediating rule 72/277: '\''grub2_enable_apparmor'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ add_kernel_boot_param apparmor 1
++ local param_to_add=apparmor
++ local param_to_add_val=1
++ local grub_cfg=/etc/default/grub
++ '[' -z apparmor ']'
+++ grep -Po '(?<=^GRUB_CMDLINE_LINUX=")[^"]*' /etc/default/grub
++ local 'cur_param=apparmor=1 security=apparmor'
++ '[' 0 -eq 0 ']'
++ tmp_vec=($(echo "${cur_param}" | sed -E "s/\b${param_to_add}\b(=\S+)?//"))
+++ sed -E 's/\bapparmor\b(=\S+)?//'
+++ echo 'apparmor=1 security=apparmor'
++ '[' -z 1 ']'
++ tmp_vec+=("${param_to_add}=${param_to_add_val}")
++ cur_param='security=apparmor apparmor=1'
++ sed -i '/^GRUB_CMDLINE_LINUX=/d' /etc/default/grub
++ echo 'GRUB_CMDLINE_LINUX="security=apparmor apparmor=1"'
++ add_kernel_boot_param security apparmor
++ local param_to_add=security
++ local param_to_add_val=apparmor
++ local grub_cfg=/etc/default/grub
++ '[' -z security ']'
+++ grep -Po '(?<=^GRUB_CMDLINE_LINUX=")[^"]*' /etc/default/grub
++ local 'cur_param=security=apparmor apparmor=1'
++ '[' 0 -eq 0 ']'
++ tmp_vec=($(echo "${cur_param}" | sed -E "s/\b${param_to_add}\b(=\S+)?//"))
+++ sed -E 's/\bsecurity\b(=\S+)?//'
+++ echo 'security=apparmor apparmor=1'
++ '[' -z apparmor ']'
++ tmp_vec+=("${param_to_add}=${param_to_add_val}")
++ cur_param='apparmor=1 security=apparmor'
++ sed -i '/^GRUB_CMDLINE_LINUX=/d' /etc/default/grub
++ echo 'GRUB_CMDLINE_LINUX="apparmor=1 security=apparmor"'
++ do_update_grub
++ local cfg=/boot/grub/grub.cfg
++ update-grub
++ chown root:root /boot/grub/grub.cfg
++ chmod og-rwx /boot/grub/grub.cfg
++ echo 'Remediating rule 73/277: '\''file_owner_grub2_cfg'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /boot/grub/grub.cfg
++ echo 'Remediating rule 74/277: '\''file_permissions_grub2_cfg'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0600 /boot/grub/grub.cfg
++ echo 'Remediating rule 75/277: '\''grub2_password'\'''
++ echo 'Remediating rule 76/277: '\''grub2_uefi_password'\'''
++ echo 'Remediating rule 77/277: '\''package_rsyslog_installed'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get install -y rsyslog
++ echo 'Remediating rule 78/277: '\''service_rsyslog_enabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ SYSTEMCTL_EXEC=/usr/bin/systemctl
++ /usr/bin/systemctl unmask rsyslog.service
++ /usr/bin/systemctl start rsyslog.service
++ /usr/bin/systemctl enable rsyslog.service
++ echo 'Remediating rule 79/277: '\''all_logfile_permissions'\'''
++ echo 'Remediating rule 80/277: '\''rsyslog_filecreatemode'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sed -i '/^\s*$FileCreateMode/d' /etc/rsyslog.conf /etc/rsyslog.d/20-ufw.conf /etc/rsyslog.d/21-cloudinit.conf /etc/rsyslog.d/50-default.conf /etc/rsyslog.d/95-omsagent.conf /etc/rsyslog.d/99-rsyslog_filecreatemode.conf /etc/rsyslog.d/postfix.conf
++ echo '$FileCreateMode 0640'
++ echo 'Remediating rule 81/277: '\''compress_large_logs'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/systemd/journald.conf ']'
++ LC_ALL=C
++ sed -i '/^\s*Compress=yes/Id' /etc/systemd/journald.conf
++ cp /etc/systemd/journald.conf /etc/systemd/journald.conf.bak
++ printf '%s\n' Compress=yes
++ rm /etc/systemd/journald.conf.bak
++ echo 'Remediating rule 82/277: '\''forward_to_syslog'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/systemd/journald.conf ']'
++ LC_ALL=C
++ sed -i '/^\s*ForwardToSyslog=yes/Id' /etc/systemd/journald.conf
++ cp /etc/systemd/journald.conf /etc/systemd/journald.conf.bak
++ printf '%s\n' ForwardToSyslog=yes
++ rm /etc/systemd/journald.conf.bak
++ echo 'Remediating rule 83/277: '\''persistent_storage'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/systemd/journald.conf ']'
++ LC_ALL=C
++ sed -i '/^\s*Storage=persistent/Id' /etc/systemd/journald.conf
++ cp /etc/systemd/journald.conf /etc/systemd/journald.conf.bak
++ printf '%s\n' Storage=persistent
++ rm /etc/systemd/journald.conf.bak
++ echo 'Remediating rule 84/277: '\''ensure_logrotate_permissions'\'''
++ echo 'Remediating rule 85/277: '\''rsyslog_remote_loghost'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ rsyslog_remote_loghost_address=logcollector
++ sed_command=('sed' '-i')
++ test -L /etc/rsyslog.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key='*.*'
++ printf -v formatted_output '%s %s' '*.*' @@logcollector
++ LC_ALL=C
++ grep -q -m 1 -i -e '^\*\.\*\>' /etc/rsyslog.conf
++ printf '\n# Per %s: Set %s in %s\n' CCE '*.* @@logcollector' /etc/rsyslog.conf
++ printf '%s\n' '*.* @@logcollector'
++ echo 'Remediating rule 86/277: '\''package_iptables-persistent_installed'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get install -y iptables-persistent
++ echo 'Remediating rule 87/277: '\''package_iptables_installed'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get install -y iptables
++ echo 'Remediating rule 88/277: '\''package_iptables-persistent_removed'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y iptables-persistent
++ echo 'Remediating rule 89/277: '\''ip6tables_allow_in_lo'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == iptables ']'
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables-persistent
++ debconf-set-selections
++ debconf-set-selections
++ DEBIAN_FRONTEND=noninteractive
++ apt-get install -y iptables-persistent
++ ip6tables -C INPUT -i lo -j ACCEPT
++ ip6tables-save -t filter
++ echo 'Remediating rule 90/277: '\''ip6tables_allow_out_lo'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == iptables ']'
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables-persistent
++ ip6tables -C OUTPUT -o lo -j ACCEPT
++ ip6tables-save -t filter
++ echo 'Remediating rule 91/277: '\''ip6tables_deny_in_other_for_localhost6'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == iptables ']'
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables-persistent
++ ip6tables -C INPUT -s ::1 -j DROP
++ ip6tables-save -t filter
++ echo 'Remediating rule 92/277: '\''iptables_allow_in_lo'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == iptables ']'
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables-persistent
++ iptables -C INPUT -i lo -j ACCEPT
++ iptables-save -t filter
++ echo 'Remediating rule 93/277: '\''iptables_allow_out_lo'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == iptables ']'
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables-persistent
++ iptables -C OUTPUT -o lo -j ACCEPT
++ iptables-save -t filter
++ echo 'Remediating rule 94/277: '\''iptables_deny_in_other_for_localhost'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == iptables ']'
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' iptables-persistent
++ iptables -C INPUT -s 127.0.0.0/8 -j DROP
++ iptables-save -t filter
++ echo 'Remediating rule 95/277: '\''ip6tables_default_deny'\'''
++ echo 'Remediating rule 96/277: '\''iptables_default_deny'\'''
++ echo 'Remediating rule 97/277: '\''sysctl_net_ipv6_conf_all_accept_ra'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv6_conf_all_accept_ra_value=0
++ /sbin/sysctl -q -n -w net.ipv6.conf.all.accept_ra=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv6.conf.all.accept_ra
++ printf -v formatted_output '%s = %s' net.ipv6.conf.all.accept_ra 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv6.conf.all.accept_ra\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv6.conf.all.accept_ra\>.*/net.ipv6.conf.all.accept_ra = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 98/277: '\''sysctl_net_ipv6_conf_all_accept_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv6_conf_all_accept_redirects_value=0
++ /sbin/sysctl -q -n -w net.ipv6.conf.all.accept_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv6.conf.all.accept_redirects
++ printf -v formatted_output '%s = %s' net.ipv6.conf.all.accept_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv6.conf.all.accept_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv6.conf.all.accept_redirects\>.*/net.ipv6.conf.all.accept_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 99/277: '\''sysctl_net_ipv6_conf_all_accept_source_route'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv6_conf_all_accept_source_route_value=0
++ /sbin/sysctl -q -n -w net.ipv6.conf.all.accept_source_route=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv6.conf.all.accept_source_route
++ printf -v formatted_output '%s = %s' net.ipv6.conf.all.accept_source_route 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv6.conf.all.accept_source_route\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv6.conf.all.accept_source_route\>.*/net.ipv6.conf.all.accept_source_route = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 100/277: '\''sysctl_net_ipv6_conf_all_forwarding'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv6_conf_all_forwarding_value=0
++ /sbin/sysctl -q -n -w net.ipv6.conf.all.forwarding=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv6.conf.all.forwarding
++ printf -v formatted_output '%s = %s' net.ipv6.conf.all.forwarding 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv6.conf.all.forwarding\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv6.conf.all.forwarding\>.*/net.ipv6.conf.all.forwarding = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 101/277: '\''sysctl_net_ipv6_conf_default_accept_ra'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv6_conf_default_accept_ra_value=0
++ /sbin/sysctl -q -n -w net.ipv6.conf.default.accept_ra=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv6.conf.default.accept_ra
++ printf -v formatted_output '%s = %s' net.ipv6.conf.default.accept_ra 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv6.conf.default.accept_ra\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv6.conf.default.accept_ra\>.*/net.ipv6.conf.default.accept_ra = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 102/277: '\''sysctl_net_ipv6_conf_default_accept_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv6_conf_default_accept_redirects_value=0
++ /sbin/sysctl -q -n -w net.ipv6.conf.default.accept_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv6.conf.default.accept_redirects
++ printf -v formatted_output '%s = %s' net.ipv6.conf.default.accept_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv6.conf.default.accept_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv6.conf.default.accept_redirects\>.*/net.ipv6.conf.default.accept_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 103/277: '\''sysctl_net_ipv6_conf_default_accept_source_route'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv6_conf_default_accept_source_route_value=0
++ /sbin/sysctl -q -n -w net.ipv6.conf.default.accept_source_route=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv6.conf.default.accept_source_route
++ printf -v formatted_output '%s = %s' net.ipv6.conf.default.accept_source_route 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv6.conf.default.accept_source_route\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv6.conf.default.accept_source_route\>.*/net.ipv6.conf.default.accept_source_route = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 104/277: '\''sysctl_net_ipv4_conf_all_accept_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_all_accept_redirects_value=0
++ /sbin/sysctl -q -n -w net.ipv4.conf.all.accept_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.all.accept_redirects
++ printf -v formatted_output '%s = %s' net.ipv4.conf.all.accept_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.all.accept_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.all.accept_redirects\>.*/net.ipv4.conf.all.accept_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 105/277: '\''sysctl_net_ipv4_conf_all_accept_source_route'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_all_accept_source_route_value=0
++ /sbin/sysctl -q -n -w net.ipv4.conf.all.accept_source_route=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.all.accept_source_route
++ printf -v formatted_output '%s = %s' net.ipv4.conf.all.accept_source_route 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.all.accept_source_route\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.all.accept_source_route\>.*/net.ipv4.conf.all.accept_source_route = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 106/277: '\''sysctl_net_ipv4_conf_all_log_martians'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_all_log_martians_value=1
++ /sbin/sysctl -q -n -w net.ipv4.conf.all.log_martians=1
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.all.log_martians
++ printf -v formatted_output '%s = %s' net.ipv4.conf.all.log_martians 1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.all.log_martians\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.all.log_martians\>.*/net.ipv4.conf.all.log_martians = 1/gi' /etc/sysctl.conf
++ echo 'Remediating rule 107/277: '\''sysctl_net_ipv4_conf_all_rp_filter'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_all_rp_filter_value=1
++ /sbin/sysctl -q -n -w net.ipv4.conf.all.rp_filter=1
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.all.rp_filter
++ printf -v formatted_output '%s = %s' net.ipv4.conf.all.rp_filter 1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.all.rp_filter\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.all.rp_filter\>.*/net.ipv4.conf.all.rp_filter = 1/gi' /etc/sysctl.conf
++ echo 'Remediating rule 108/277: '\''sysctl_net_ipv4_conf_all_secure_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_all_secure_redirects_value=0
++ /sbin/sysctl -q -n -w net.ipv4.conf.all.secure_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.all.secure_redirects
++ printf -v formatted_output '%s = %s' net.ipv4.conf.all.secure_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.all.secure_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.all.secure_redirects\>.*/net.ipv4.conf.all.secure_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 109/277: '\''sysctl_net_ipv4_conf_default_accept_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_default_accept_redirects_value=0
++ /sbin/sysctl -q -n -w net.ipv4.conf.default.accept_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.default.accept_redirects
++ printf -v formatted_output '%s = %s' net.ipv4.conf.default.accept_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.default.accept_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.default.accept_redirects\>.*/net.ipv4.conf.default.accept_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 110/277: '\''sysctl_net_ipv4_conf_default_accept_source_route'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_default_accept_source_route_value=0
++ /sbin/sysctl -q -n -w net.ipv4.conf.default.accept_source_route=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.default.accept_source_route
++ printf -v formatted_output '%s = %s' net.ipv4.conf.default.accept_source_route 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.default.accept_source_route\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.default.accept_source_route\>.*/net.ipv4.conf.default.accept_source_route = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 111/277: '\''sysctl_net_ipv4_conf_default_log_martians'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_default_log_martians_value=1
++ /sbin/sysctl -q -n -w net.ipv4.conf.default.log_martians=1
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.default.log_martians
++ printf -v formatted_output '%s = %s' net.ipv4.conf.default.log_martians 1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.default.log_martians\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.default.log_martians\>.*/net.ipv4.conf.default.log_martians = 1/gi' /etc/sysctl.conf
++ echo 'Remediating rule 112/277: '\''sysctl_net_ipv4_conf_default_rp_filter'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_default_rp_filter_value=1
++ /sbin/sysctl -q -n -w net.ipv4.conf.default.rp_filter=1
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.default.rp_filter
++ printf -v formatted_output '%s = %s' net.ipv4.conf.default.rp_filter 1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.default.rp_filter\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.default.rp_filter\>.*/net.ipv4.conf.default.rp_filter = 1/gi' /etc/sysctl.conf
++ echo 'Remediating rule 113/277: '\''sysctl_net_ipv4_conf_default_secure_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_conf_default_secure_redirects_value=0
++ /sbin/sysctl -q -n -w net.ipv4.conf.default.secure_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.default.secure_redirects
++ printf -v formatted_output '%s = %s' net.ipv4.conf.default.secure_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.default.secure_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.default.secure_redirects\>.*/net.ipv4.conf.default.secure_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 114/277: '\''sysctl_net_ipv4_icmp_echo_ignore_broadcasts'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_icmp_echo_ignore_broadcasts_value=1
++ /sbin/sysctl -q -n -w net.ipv4.icmp_echo_ignore_broadcasts=1
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.icmp_echo_ignore_broadcasts
++ printf -v formatted_output '%s = %s' net.ipv4.icmp_echo_ignore_broadcasts 1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.icmp_echo_ignore_broadcasts\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.icmp_echo_ignore_broadcasts\>.*/net.ipv4.icmp_echo_ignore_broadcasts = 1/gi' /etc/sysctl.conf
++ echo 'Remediating rule 115/277: '\''sysctl_net_ipv4_icmp_ignore_bogus_error_responses'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_icmp_ignore_bogus_error_responses_value=1
++ /sbin/sysctl -q -n -w net.ipv4.icmp_ignore_bogus_error_responses=1
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.icmp_ignore_bogus_error_responses
++ printf -v formatted_output '%s = %s' net.ipv4.icmp_ignore_bogus_error_responses 1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.icmp_ignore_bogus_error_responses\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.icmp_ignore_bogus_error_responses\>.*/net.ipv4.icmp_ignore_bogus_error_responses = 1/gi' /etc/sysctl.conf
++ echo 'Remediating rule 116/277: '\''sysctl_net_ipv4_tcp_syncookies'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sysctl_net_ipv4_tcp_syncookies_value=1
++ /sbin/sysctl -q -n -w net.ipv4.tcp_syncookies=1
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.tcp_syncookies
++ printf -v formatted_output '%s = %s' net.ipv4.tcp_syncookies 1
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.tcp_syncookies\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.tcp_syncookies\>.*/net.ipv4.tcp_syncookies = 1/gi' /etc/sysctl.conf
++ echo 'Remediating rule 117/277: '\''sysctl_net_ipv4_conf_all_send_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ /sbin/sysctl -q -n -w net.ipv4.conf.all.send_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.all.send_redirects
++ printf -v formatted_output '%s = %s' net.ipv4.conf.all.send_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.all.send_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.all.send_redirects\>.*/net.ipv4.conf.all.send_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 118/277: '\''sysctl_net_ipv4_conf_default_send_redirects'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ /sbin/sysctl -q -n -w net.ipv4.conf.default.send_redirects=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.conf.default.send_redirects
++ printf -v formatted_output '%s = %s' net.ipv4.conf.default.send_redirects 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.conf.default.send_redirects\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.conf.default.send_redirects\>.*/net.ipv4.conf.default.send_redirects = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 119/277: '\''sysctl_net_ipv4_ip_forward'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ /sbin/sysctl -q -n -w net.ipv4.ip_forward=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=net.ipv4.ip_forward
++ printf -v formatted_output '%s = %s' net.ipv4.ip_forward 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^net.ipv4.ip_forward\>' /etc/sysctl.conf
++ sed -i 's/^net.ipv4.ip_forward\>.*/net.ipv4.ip_forward = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 120/277: '\''package_nftables_installed'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == nftables ']'
++ echo 'Remediation is not applicable, nothing was done'
++ echo 'Remediating rule 121/277: '\''package_nftables_removed'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -n iptables ']'
++ '[' iptables '!=' nftables ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y nftables
++ echo 'Remediating rule 122/277: '\''service_nftables_enabled'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == nftables ']'
++ echo 'Remediation is not applicable, nothing was done'
++ echo 'Remediating rule 123/277: '\''nftables_default_deny'\'''
++ echo 'Remediating rule 124/277: '\''nftables_ensure_base_chain_exist'\'''
++ echo 'Remediating rule 125/277: '\''nftables_ensure_table_exists'\'''
++ echo 'Remediating rule 126/277: '\''nftables_permanent_rules'\'''
++ echo 'Remediating rule 127/277: '\''nftables_allow_in_lo'\'''
++ echo 'Remediating rule 128/277: '\''nftables_deny_in_other_for_localhost'\'''
++ echo 'Remediating rule 129/277: '\''nftables_deny_in_other_for_localhost6'\'''
++ echo 'Remediating rule 130/277: '\''package_ufw_installed'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == ufw ']'
++ echo 'Remediation is not applicable, nothing was done'
++ echo 'Remediating rule 131/277: '\''package_ufw_removed'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -n iptables ']'
++ '[' iptables '!=' ufw ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y ufw
++ echo 'Remediating rule 132/277: '\''service_ufw_enabled'\'''
++ var_firewall_package=iptables
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' iptables == ufw ']'
++ echo 'Remediation is not applicable, nothing was done'
++ echo 'Remediating rule 133/277: '\''ufw_default_deny'\'''
++ echo 'Remediating rule 134/277: '\''ufw_allow_in_lo'\'''
++ echo 'Remediating rule 135/277: '\''ufw_allow_out_lo'\'''
++ echo 'Remediating rule 136/277: '\''ufw_deny_in_other_for_localhost'\'''
++ echo 'Remediating rule 137/277: '\''ufw_deny_in_other_for_localhost6'\'''
++ echo 'Remediating rule 138/277: '\''wireless_disable_interfaces'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ command -v nmcli
+++ find /sys/class/net/enP4958s1/ /sys/class/net/eth0/ /sys/class/net/lo/ -type d -name wireless
++ '[' -n '' ']'
++ echo 'Remediating rule 139/277: '\''dir_perms_world_writable_sticky_bits'\'''
++ xargs -I '$6' find '$6' -xdev -type d '(' -perm -0002 -a '!' -perm -1000 ')' -exec chmod a+t '{}' +
++ awk '{if (NR!=1) print $6}'
++ df --local -P
++ echo 'Remediating rule 140/277: '\''file_permissions_unauthorized_world_writable'\'''
++ find / -xdev -type f -perm -002 -exec chmod o-w '{}' ';'
++ echo 'Remediating rule 141/277: '\''no_files_unowned_by_user'\'''
++ echo 'Remediating rule 142/277: '\''no_ungrouped_files_or_dirs'\'''
++ echo 'Remediating rule 143/277: '\''file_groupowner_backup_etc_group'\'''
++ chgrp 0 /etc/group-
++ echo 'Remediating rule 144/277: '\''file_groupowner_backup_etc_gshadow'\'''
++ chgrp 42 /etc/gshadow-
++ echo 'Remediating rule 145/277: '\''file_groupowner_backup_etc_passwd'\'''
++ chgrp 0 /etc/passwd-
++ echo 'Remediating rule 146/277: '\''file_groupowner_backup_etc_shadow'\'''
++ chgrp 42 /etc/shadow-
++ echo 'Remediating rule 147/277: '\''file_groupowner_etc_group'\'''
++ chgrp 0 /etc/group
++ echo 'Remediating rule 148/277: '\''file_groupowner_etc_gshadow'\'''
++ chgrp 42 /etc/gshadow
++ echo 'Remediating rule 149/277: '\''file_groupowner_etc_passwd'\'''
++ chgrp 0 /etc/passwd
++ echo 'Remediating rule 150/277: '\''file_groupowner_etc_shadow'\'''
++ chgrp 42 /etc/shadow
++ echo 'Remediating rule 151/277: '\''file_owner_backup_etc_group'\'''
++ chown 0 /etc/group-
++ echo 'Remediating rule 152/277: '\''file_owner_backup_etc_gshadow'\'''
++ chown 0 /etc/gshadow-
++ echo 'Remediating rule 153/277: '\''file_owner_backup_etc_passwd'\'''
++ chown 0 /etc/passwd-
++ echo 'Remediating rule 154/277: '\''file_owner_backup_etc_shadow'\'''
++ chown 0 /etc/shadow-
++ echo 'Remediating rule 155/277: '\''file_owner_etc_group'\'''
++ chown 0 /etc/group
++ echo 'Remediating rule 156/277: '\''file_owner_etc_gshadow'\'''
++ chown 0 /etc/gshadow
++ echo 'Remediating rule 157/277: '\''file_owner_etc_passwd'\'''
++ chown 0 /etc/passwd
++ echo 'Remediating rule 158/277: '\''file_owner_etc_shadow'\'''
++ chown 0 /etc/shadow
++ echo 'Remediating rule 159/277: '\''file_permissions_backup_etc_group'\'''
++ chmod 0644 /etc/group-
++ echo 'Remediating rule 160/277: '\''file_permissions_backup_etc_gshadow'\'''
++ chmod 0640 /etc/gshadow-
++ echo 'Remediating rule 161/277: '\''file_permissions_backup_etc_passwd'\'''
++ chmod 0644 /etc/passwd-
++ echo 'Remediating rule 162/277: '\''file_permissions_backup_etc_shadow'\'''
++ chmod 0640 /etc/shadow-
++ echo 'Remediating rule 163/277: '\''file_permissions_etc_group'\'''
++ chmod 0644 /etc/group
++ echo 'Remediating rule 164/277: '\''file_permissions_etc_gshadow'\'''
++ chmod 0640 /etc/gshadow
++ echo 'Remediating rule 165/277: '\''file_permissions_etc_passwd'\'''
++ chmod 0644 /etc/passwd
++ echo 'Remediating rule 166/277: '\''file_permissions_etc_shadow'\'''
++ chmod 0640 /etc/shadow
++ echo 'Remediating rule 167/277: '\''service_autofs_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ SYSTEMCTL_EXEC=/usr/bin/systemctl
++ /usr/bin/systemctl stop autofs.service
++ /usr/bin/systemctl disable autofs.service
++ /usr/bin/systemctl mask autofs.service
++ grep -q '^autofs.socket'
++ /usr/bin/systemctl list-unit-files
++ /usr/bin/systemctl reset-failed autofs.service
++ true
++ echo 'Remediating rule 168/277: '\''kernel_module_cramfs_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ LC_ALL=C
++ grep -q -m 1 '^install cramfs' /etc/modprobe.d/cramfs.conf
++ sed -i 's#^install cramfs.*#install cramfs /bin/true#g' /etc/modprobe.d/cramfs.conf
++ LC_ALL=C
++ grep -q -m 1 '^blacklist cramfs$' /etc/modprobe.d/cramfs.conf
++ echo 'Remediating rule 169/277: '\''kernel_module_freevxfs_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ LC_ALL=C
++ grep -q -m 1 '^install freevxfs' /etc/modprobe.d/freevxfs.conf
++ sed -i 's#^install freevxfs.*#install freevxfs /bin/true#g' /etc/modprobe.d/freevxfs.conf
++ LC_ALL=C
++ grep -q -m 1 '^blacklist freevxfs$' /etc/modprobe.d/freevxfs.conf
++ echo 'Remediating rule 170/277: '\''kernel_module_hfs_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ LC_ALL=C
++ grep -q -m 1 '^install hfs' /etc/modprobe.d/hfs.conf
++ sed -i 's#^install hfs.*#install hfs /bin/true#g' /etc/modprobe.d/hfs.conf
++ LC_ALL=C
++ grep -q -m 1 '^blacklist hfs$' /etc/modprobe.d/hfs.conf
++ echo 'Remediating rule 171/277: '\''kernel_module_hfsplus_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ LC_ALL=C
++ grep -q -m 1 '^install hfsplus' /etc/modprobe.d/hfsplus.conf
++ sed -i 's#^install hfsplus.*#install hfsplus /bin/true#g' /etc/modprobe.d/hfsplus.conf
++ LC_ALL=C
++ grep -q -m 1 '^blacklist hfsplus$' /etc/modprobe.d/hfsplus.conf
++ echo 'Remediating rule 172/277: '\''kernel_module_jffs2_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ LC_ALL=C
++ grep -q -m 1 '^install jffs2' /etc/modprobe.d/jffs2.conf
++ sed -i 's#^install jffs2.*#install jffs2 /bin/true#g' /etc/modprobe.d/jffs2.conf
++ LC_ALL=C
++ grep -q -m 1 '^blacklist jffs2$' /etc/modprobe.d/jffs2.conf
++ echo 'Remediating rule 173/277: '\''kernel_module_udf_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ LC_ALL=C
++ grep -q -m 1 '^install udf' /etc/modprobe.d/udf.conf
++ sed -i 's#^install udf.*#install udf /bin/true#g' /etc/modprobe.d/udf.conf
++ LC_ALL=C
++ grep -q -m 1 '^blacklist udf$' /etc/modprobe.d/udf.conf
++ echo 'Remediating rule 174/277: '\''kernel_module_usb-storage_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ LC_ALL=C
++ grep -q -m 1 '^install usb-storage' /etc/modprobe.d/usb-storage.conf
++ sed -i 's#^install usb-storage.*#install usb-storage /bin/true#g' /etc/modprobe.d/usb-storage.conf
++ LC_ALL=C
++ grep -q -m 1 '^blacklist usb-storage$' /etc/modprobe.d/usb-storage.conf
++ echo 'Remediating rule 175/277: '\''mount_option_dev_shm_nodev'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /dev/shm nodev tmpfs tmpfs
++ local _mount_point=/dev/shm _new_opt=nodev _device=tmpfs _type=tmpfs
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /dev/shm
+++ printf '[[:space:]]%s[[:space:]]' /dev/shm
++ _mount_point_match_regexp='[[:space:]]/dev/shm[[:space:]]'
+++ grep -c '[[:space:]]/dev/shm[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c nodev
+++ grep '[[:space:]]/dev/shm[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /dev/shm
++ local _mount_point=/dev/shm
++ mkdir -p /dev/shm
++ mountpoint -q /dev/shm
++ mount -o remount --target /dev/shm
++ echo 'Remediating rule 176/277: '\''mount_option_dev_shm_noexec'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /dev/shm noexec tmpfs tmpfs
++ local _mount_point=/dev/shm _new_opt=noexec _device=tmpfs _type=tmpfs
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /dev/shm
+++ printf '[[:space:]]%s[[:space:]]' /dev/shm
++ _mount_point_match_regexp='[[:space:]]/dev/shm[[:space:]]'
+++ grep -c '[[:space:]]/dev/shm[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c noexec
+++ grep '[[:space:]]/dev/shm[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /dev/shm
++ local _mount_point=/dev/shm
++ mkdir -p /dev/shm
++ mountpoint -q /dev/shm
++ mount -o remount --target /dev/shm
++ echo 'Remediating rule 177/277: '\''mount_option_dev_shm_nosuid'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /dev/shm nosuid tmpfs tmpfs
++ local _mount_point=/dev/shm _new_opt=nosuid _device=tmpfs _type=tmpfs
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /dev/shm
+++ printf '[[:space:]]%s[[:space:]]' /dev/shm
++ _mount_point_match_regexp='[[:space:]]/dev/shm[[:space:]]'
+++ grep -c '[[:space:]]/dev/shm[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c nosuid
+++ grep '[[:space:]]/dev/shm[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /dev/shm
++ local _mount_point=/dev/shm
++ mkdir -p /dev/shm
++ mountpoint -q /dev/shm
++ mount -o remount --target /dev/shm
++ echo 'Remediating rule 178/277: '\''mount_option_home_nodev_optional'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /home nodev '' ''
++ local _mount_point=/home _new_opt=nodev _device= _type=
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /home
+++ printf '[[:space:]]%s[[:space:]]' /home
++ _mount_point_match_regexp='[[:space:]]/home[[:space:]]'
+++ grep -c '[[:space:]]/home[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c nodev
+++ grep '[[:space:]]/home[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /home
++ local _mount_point=/home
++ mkdir -p /home
++ mountpoint -q /home
++ mount --target /home
++ echo 'Remediating rule 179/277: '\''mount_option_tmp_nodev_optional'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /tmp nodev '' ''
++ local _mount_point=/tmp _new_opt=nodev _device= _type=
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /tmp
+++ printf '[[:space:]]%s[[:space:]]' /tmp
++ _mount_point_match_regexp='[[:space:]]/tmp[[:space:]]'
+++ grep -c '[[:space:]]/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c nodev
+++ grep '[[:space:]]/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /tmp
++ local _mount_point=/tmp
++ mkdir -p /tmp
++ mountpoint -q /tmp
++ mount --target /tmp
++ echo 'Remediating rule 180/277: '\''mount_option_tmp_noexec_optional'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /tmp noexec '' ''
++ local _mount_point=/tmp _new_opt=noexec _device= _type=
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /tmp
+++ printf '[[:space:]]%s[[:space:]]' /tmp
++ _mount_point_match_regexp='[[:space:]]/tmp[[:space:]]'
+++ grep -c '[[:space:]]/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c noexec
+++ grep '[[:space:]]/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /tmp
++ local _mount_point=/tmp
++ mkdir -p /tmp
++ mountpoint -q /tmp
++ mount --target /tmp
++ echo 'Remediating rule 181/277: '\''mount_option_tmp_nosuid_optional'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /tmp nosuid '' ''
++ local _mount_point=/tmp _new_opt=nosuid _device= _type=
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /tmp
+++ printf '[[:space:]]%s[[:space:]]' /tmp
++ _mount_point_match_regexp='[[:space:]]/tmp[[:space:]]'
+++ grep -c '[[:space:]]/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c nosuid
+++ grep '[[:space:]]/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /tmp
++ local _mount_point=/tmp
++ mkdir -p /tmp
++ mountpoint -q /tmp
++ mount --target /tmp
++ echo 'Remediating rule 182/277: '\''mount_option_var_tmp_nodev_optional'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /var/tmp nodev '' ''
++ local _mount_point=/var/tmp _new_opt=nodev _device= _type=
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /var/tmp
+++ printf '[[:space:]]%s[[:space:]]' /var/tmp
++ _mount_point_match_regexp='[[:space:]]/var/tmp[[:space:]]'
+++ grep -c '[[:space:]]/var/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c nodev
+++ grep '[[:space:]]/var/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /var/tmp
++ local _mount_point=/var/tmp
++ mkdir -p /var/tmp
++ mountpoint -q /var/tmp
++ mount --target /var/tmp
++ echo 'Remediating rule 183/277: '\''mount_option_var_tmp_noexec_optional'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /var/tmp noexec '' ''
++ local _mount_point=/var/tmp _new_opt=noexec _device= _type=
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /var/tmp
+++ printf '[[:space:]]%s[[:space:]]' /var/tmp
++ _mount_point_match_regexp='[[:space:]]/var/tmp[[:space:]]'
+++ grep -c '[[:space:]]/var/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c noexec
+++ grep '[[:space:]]/var/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /var/tmp
++ local _mount_point=/var/tmp
++ mkdir -p /var/tmp
++ mountpoint -q /var/tmp
++ mount --target /var/tmp
++ echo 'Remediating rule 184/277: '\''mount_option_var_tmp_nosuid_optional'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ include_mount_options_functions
++ :
++ perform_remediation
++ test no '!=' no
++ ensure_mount_option_in_fstab /var/tmp nosuid '' ''
++ local _mount_point=/var/tmp _new_opt=nosuid _device= _type=
++ local _mount_point_match_regexp= _previous_mount_opts=
+++ get_mount_point_regexp /var/tmp
+++ printf '[[:space:]]%s[[:space:]]' /var/tmp
++ _mount_point_match_regexp='[[:space:]]/var/tmp[[:space:]]'
+++ grep -c '[[:space:]]/var/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
+++ grep -c nosuid
+++ grep '[[:space:]]/var/tmp[[:space:]]' /etc/fstab
++ '[' 1 -eq 0 ']'
++ ensure_partition_is_mounted /var/tmp
++ local _mount_point=/var/tmp
++ mkdir -p /var/tmp
++ mountpoint -q /var/tmp
++ mount --target /var/tmp
++ echo 'Remediating rule 185/277: '\''disable_users_coredumps'\'''
++ grep -q installed
++ dpkg-query --show '--showformat=${db:Status-Status}\n' libpam-runtime
++ SECURITY_LIMITS_FILE=/etc/security/limits.conf
++ grep -qE '\*\s+hard\s+core' /etc/security/limits.conf
++ sed -ri 's/(hard\s+core\s+)[[:digit:]]+/\1 0/' /etc/security/limits.conf
++ echo 'Remediating rule 186/277: '\''sysctl_fs_suid_dumpable'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ /sbin/sysctl -q -n -w fs.suid_dumpable=0
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=fs.suid_dumpable
++ printf -v formatted_output '%s = %s' fs.suid_dumpable 0
++ LC_ALL=C
++ grep -q -m 1 -i -e '^fs.suid_dumpable\>' /etc/sysctl.conf
++ sed -i 's/^fs.suid_dumpable\>.*/fs.suid_dumpable = 0/gi' /etc/sysctl.conf
++ echo 'Remediating rule 187/277: '\''sysctl_kernel_randomize_va_space'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ /sbin/sysctl -q -n -w kernel.randomize_va_space=2
++ sed_command=('sed' '-i')
++ test -L /etc/sysctl.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=kernel.randomize_va_space
++ printf -v formatted_output '%s = %s' kernel.randomize_va_space 2
++ LC_ALL=C
++ grep -q -m 1 -i -e '^kernel.randomize_va_space\>' /etc/sysctl.conf
++ sed -i 's/^kernel.randomize_va_space\>.*/kernel.randomize_va_space = 2/gi' /etc/sysctl.conf
++ echo 'Remediating rule 188/277: '\''ensure_xd_nx_support_enabled'\'''
++ echo 'Remediating rule 189/277: '\''service_apport_disabled'\'''
++ SYSTEMCTL_EXEC=/usr/bin/systemctl
++ /usr/bin/systemctl stop apport.service
++ /usr/bin/systemctl disable apport.service
++ /usr/bin/systemctl mask apport.service
++ /usr/bin/systemctl list-unit-files
++ grep -q '^apport.socket'
++ /usr/bin/systemctl reset-failed apport.service
++ true
++ echo 'Remediating rule 190/277: '\''package_avahi-daemon_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y avahi-daemon
++ echo 'Remediating rule 191/277: '\''service_avahi-daemon_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ SYSTEMCTL_EXEC=/usr/bin/systemctl
++ /usr/bin/systemctl stop avahi-daemon.service
++ /usr/bin/systemctl disable avahi-daemon.service
++ /usr/bin/systemctl mask avahi-daemon.service
++ grep -q '^avahi-daemon.socket'
++ /usr/bin/systemctl list-unit-files
++ /usr/bin/systemctl reset-failed avahi-daemon.service
++ true
++ echo 'Remediating rule 192/277: '\''service_cron_enabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ SYSTEMCTL_EXEC=/usr/bin/systemctl
++ /usr/bin/systemctl unmask cron.service
++ /usr/bin/systemctl start cron.service
++ /usr/bin/systemctl enable cron.service
++ echo 'Remediating rule 193/277: '\''file_groupowner_cron_d'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/cron.d/
++ echo 'Remediating rule 194/277: '\''file_groupowner_cron_daily'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/cron.daily/
++ echo 'Remediating rule 195/277: '\''file_groupowner_cron_hourly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/cron.hourly/
++ echo 'Remediating rule 196/277: '\''file_groupowner_cron_monthly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/cron.monthly/
++ echo 'Remediating rule 197/277: '\''file_groupowner_cron_weekly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/cron.weekly/
++ echo 'Remediating rule 198/277: '\''file_groupowner_crontab'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/crontab
++ echo 'Remediating rule 199/277: '\''file_owner_cron_d'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/cron.d/
++ echo 'Remediating rule 200/277: '\''file_owner_cron_daily'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/cron.daily/
++ echo 'Remediating rule 201/277: '\''file_owner_cron_hourly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/cron.hourly/
++ echo 'Remediating rule 202/277: '\''file_owner_cron_monthly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/cron.monthly/
++ echo 'Remediating rule 203/277: '\''file_owner_cron_weekly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/cron.weekly/
++ echo 'Remediating rule 204/277: '\''file_owner_crontab'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/crontab
++ echo 'Remediating rule 205/277: '\''file_permissions_cron_d'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0700 /etc/cron.d/
++ echo 'Remediating rule 206/277: '\''file_permissions_cron_daily'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0700 /etc/cron.daily/
++ echo 'Remediating rule 207/277: '\''file_permissions_cron_hourly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0700 /etc/cron.hourly/
++ echo 'Remediating rule 208/277: '\''file_permissions_cron_monthly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0700 /etc/cron.monthly/
++ echo 'Remediating rule 209/277: '\''file_permissions_cron_weekly'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0700 /etc/cron.weekly/
++ echo 'Remediating rule 210/277: '\''file_permissions_crontab'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0600 /etc/crontab
++ echo 'Remediating rule 211/277: '\''file_groupowner_at_allow'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/at.allow
++ echo 'Remediating rule 212/277: '\''file_groupowner_cron_allow'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/cron.allow
++ echo 'Remediating rule 213/277: '\''file_owner_at_allow'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/at.allow
++ echo 'Remediating rule 214/277: '\''file_owner_cron_allow'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/cron.allow
++ echo 'Remediating rule 215/277: '\''file_permissions_at_allow'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0640 /etc/at.allow
++ echo 'Remediating rule 216/277: '\''file_permissions_cron_allow'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0640 /etc/cron.allow
++ echo 'Remediating rule 217/277: '\''restrict_at_users'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ rm -rf /etc/at.deny
++ touch /etc/at.allow
++ chmod 640 /etc/at.allow
++ echo 'Remediating rule 218/277: '\''restrict_cron_users'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ rm -rf /etc/cron.deny
++ touch /etc/cron.allow
++ chmod 640 /etc/cron.allow
++ echo 'Remediating rule 219/277: '\''package_nis_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y nis
++ echo 'Remediating rule 220/277: '\''package_dhcp_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y isc-dhcp-server
++ echo 'Remediating rule 221/277: '\''package_bind_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y bind9
++ echo 'Remediating rule 222/277: '\''package_vsftpd_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y vsftpd
++ echo 'Remediating rule 223/277: '\''package_httpd_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y apache2
++ echo 'Remediating rule 224/277: '\''package_dovecot_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y dovecot-core
++ echo 'Remediating rule 225/277: '\''package_openldap-clients_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y ldap-utils
++ echo 'Remediating rule 226/277: '\''package_openldap-servers_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y slapd
++ echo 'Remediating rule 227/277: '\''has_nonlocal_mta'\'''
++ echo 'Remediating rule 228/277: '\''postfix_network_listening_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_postfix_inet_interfaces=loopback-only
++ '[' -e /etc/postfix/main.cf ']'
++ LC_ALL=C
++ sed -i '/^\s*inet_interfaces\s\+=\s\+/Id' /etc/postfix/main.cf
++ cp /etc/postfix/main.cf /etc/postfix/main.cf.bak
++ printf '%s\n' inet_interfaces=loopback-only
++ rm /etc/postfix/main.cf.bak
++ echo 'Remediating rule 229/277: '\''package_nfs-kernel-server_removed'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y nfs-kernel-server
++ echo 'Remediating rule 230/277: '\''package_rpcbind_removed'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y rpcbind
++ echo 'Remediating rule 231/277: '\''package_chrony_installed'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' chrony == chrony ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get install -y chrony
++ echo 'Remediating rule 232/277: '\''package_ntp_installed'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' chrony == ntp ']'
++ echo 'Remediation is not applicable, nothing was done'
++ echo 'Remediating rule 233/277: '\''package_chrony_removed'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -n chrony ']'
++ '[' chrony '!=' chrony ']'
++ echo 'Remediation is not applicable, nothing was done'
++ echo 'Remediating rule 234/277: '\''package_ntp_removed'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -n chrony ']'
++ '[' chrony '!=' ntp ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y ntp
++ echo 'Remediating rule 235/277: '\''service_chrony_enabled'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' chrony == chrony ']'
++ SYSTEMCTL_EXEC=/usr/bin/systemctl
++ /usr/bin/systemctl unmask chrony.service
++ /usr/bin/systemctl start chrony.service
++ /usr/bin/systemctl enable chrony.service
++ echo 'Remediating rule 236/277: '\''service_ntp_enabled'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' chrony == ntp ']'
++ echo 'Remediation is not applicable, nothing was done'
++ echo 'Remediating rule 237/277: '\''chronyd_run_as_chrony_user'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' chrony == chrony ']'
++ CHRONY_CONF=/etc/chrony/chrony.conf
++ . /usr/share/scap-security-guide/remediation_functions
++ sed_command=('sed' '-i')
++ test -L /etc/chrony/chrony.conf
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=user
++ printf -v formatted_output '%s %s' user _chrony
++ LC_ALL=C
++ grep -q -m 1 -i -e '^user\>' /etc/chrony/chrony.conf
++ sed -i 's/^user\>.*/user _chrony/gi' /etc/chrony/chrony.conf
++ echo 'Remediating rule 238/277: '\''chronyd_specify_remote_server'\'''
++ var_time_synchronization_daemon=chrony
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' chrony == chrony ']'
++ . /usr/share/scap-security-guide/remediation_functions
++ var_multiple_time_servers=ntp.ubuntu.com,0.ubuntu.pool.ntp.org,1.ubuntu.pool.ntp.org,2.ubuntu.pool.ntp.org
++ config_file=/etc/chrony/chrony.conf
++ grep -q '^[\s]*(?:server|pool)[\s]+[\w]+' /etc/chrony/chrony.conf
++ grep -q '#[[:space:]]*server' /etc/chrony/chrony.conf
+++ tr , '\n'
+++ echo ntp.ubuntu.com,0.ubuntu.pool.ntp.org,1.ubuntu.pool.ntp.org,2.ubuntu.pool.ntp.org
++ for server in $(echo "$var_multiple_time_servers" | tr ',' '\n')
++ printf '\nserver %s' ntp.ubuntu.com
++ for server in $(echo "$var_multiple_time_servers" | tr ',' '\n')
++ printf '\nserver %s' 0.ubuntu.pool.ntp.org
++ for server in $(echo "$var_multiple_time_servers" | tr ',' '\n')
++ printf '\nserver %s' 1.ubuntu.pool.ntp.org
++ for server in $(echo "$var_multiple_time_servers" | tr ',' '\n')
++ printf '\nserver %s' 2.ubuntu.pool.ntp.org
++ echo 'Remediating rule 239/277: '\''package_rsync_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y rsync
++ echo 'Remediating rule 240/277: '\''package_openbsd-inetd_removed'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y openbsd-inetd
++ echo 'Remediating rule 241/277: '\''package_xinetd_removed'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y xinetd
++ echo 'Remediating rule 242/277: '\''package_rsh_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y rsh-client
++ echo 'Remediating rule 243/277: '\''no_rsh_trust_files'\'''
++ find /home -maxdepth 2 -type f -name .rhosts -exec rm -f '{}' ';'
++ '[' -f /etc/hosts.equiv ']'
++ echo 'Remediating rule 244/277: '\''package_talk_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y talk
++ echo 'Remediating rule 245/277: '\''package_telnet_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y telnet
++ echo 'Remediating rule 246/277: '\''package_cups_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y cups
++ echo 'Remediating rule 247/277: '\''service_cups_disabled'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ SYSTEMCTL_EXEC=/usr/bin/systemctl
++ /usr/bin/systemctl stop cups.service
++ /usr/bin/systemctl disable cups.service
++ /usr/bin/systemctl mask cups.service
++ grep -q '^cups.socket'
++ /usr/bin/systemctl list-unit-files
++ /usr/bin/systemctl reset-failed cups.service
++ true
++ echo 'Remediating rule 248/277: '\''package_squid_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y squid
++ echo 'Remediating rule 249/277: '\''package_samba_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y samba
++ echo 'Remediating rule 250/277: '\''package_net-snmp_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y snmp
++ echo 'Remediating rule 251/277: '\''file_groupowner_sshd_config'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chgrp 0 /etc/ssh/sshd_config
++ echo 'Remediating rule 252/277: '\''file_owner_sshd_config'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chown 0 /etc/ssh/sshd_config
++ echo 'Remediating rule 253/277: '\''file_permissions_sshd_config'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ chmod 0600 /etc/ssh/sshd_config
++ echo 'Remediating rule 254/277: '\''file_permissions_sshd_private_key'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ readarray -t files
+++ find /etc/ssh/
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_config.d
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_host_rsa_key.pub
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/sshd_config
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_host_rsa_key
++ chmod 0600 /etc/ssh/ssh_host_rsa_key
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_host_ed25519_key.pub
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_host_ecdsa_key
++ chmod 0600 /etc/ssh/ssh_host_ecdsa_key
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/moduli
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_config
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_host_ecdsa_key.pub
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_import_id
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/ssh_host_ed25519_key
++ chmod 0600 /etc/ssh/ssh_host_ed25519_key
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/sshd_config.d
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/sshd_config.d/50-cloudimg-settings.conf
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
++ for file in "${files[@]}"
++ grep -qE '^.*_key$'
++ basename /etc/ssh/sshd_config.d/50-cloud-init.conf
++ echo 'Remediating rule 255/277: '\''file_permissions_sshd_pub_key'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ readarray -t files
+++ find /etc/ssh/
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_config.d
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_host_rsa_key.pub
++ chmod 0644 /etc/ssh/ssh_host_rsa_key.pub
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/sshd_config
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_host_rsa_key
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_host_ed25519_key.pub
++ chmod 0644 /etc/ssh/ssh_host_ed25519_key.pub
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_host_ecdsa_key
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/moduli
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_config
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_host_ecdsa_key.pub
++ chmod 0644 /etc/ssh/ssh_host_ecdsa_key.pub
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_import_id
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/ssh_host_ed25519_key
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/sshd_config.d
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/sshd_config.d/50-cloudimg-settings.conf
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/sshd_config.d/60-cloudimg-settings.conf
++ for file in "${files[@]}"
++ grep -qE '^.*.pub$'
++ basename /etc/ssh/sshd_config.d/50-cloud-init.conf
++ echo 'Remediating rule 256/277: '\''disable_host_auth'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*HostbasedAuthentication\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'HostbasedAuthentication no'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 257/277: '\''sshd_disable_empty_passwords'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*PermitEmptyPasswords\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'PermitEmptyPasswords no'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 258/277: '\''sshd_disable_rhosts'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*IgnoreRhosts\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'IgnoreRhosts yes'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 259/277: '\''sshd_disable_root_login'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*PermitRootLogin\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'PermitRootLogin no'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 260/277: '\''sshd_do_not_permit_user_env'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*PermitUserEnvironment\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'PermitUserEnvironment no'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 261/277: '\''sshd_enable_pam'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*UsePAM\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'UsePAM yes'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 262/277: '\''sshd_enable_warning_banner_net'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*Banner\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'Banner /etc/issue.net'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 263/277: '\''sshd_set_idle_timeout'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sshd_idle_timeout_value=300
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*ClientAliveInterval\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'ClientAliveInterval 300'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 264/277: '\''sshd_set_keepalive'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_set_keepalive=3
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*ClientAliveCountMax\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'ClientAliveCountMax 3'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 265/277: '\''sshd_set_login_grace_time'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_login_grace_time=60
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*LoginGraceTime\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'LoginGraceTime 60'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 266/277: '\''sshd_set_loglevel_info_or_verbose'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_set_loglevel=INFO
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*LogLevel\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'LogLevel INFO'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 267/277: '\''sshd_set_max_auth_tries'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sshd_max_auth_tries_value=4
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*MaxAuthTries\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'MaxAuthTries 4'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 268/277: '\''sshd_set_max_sessions'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_max_sessions=10
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*MaxSessions\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'MaxSessions 10'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 269/277: '\''sshd_set_maxstartups'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_set_maxstartups=10:30:100
++ '[' -e /etc/ssh/sshd_config ']'
++ LC_ALL=C
++ sed -i '/^\s*MaxStartups\s\+/Id' /etc/ssh/sshd_config
++ cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+++ LC_ALL=C
+++ sed 's/:.*//g'
+++ LC_ALL=C
+++ grep -n '^Match' /etc/ssh/sshd_config.bak
++ line_number=
++ '[' -z '' ']'
++ printf '%s\n' 'MaxStartups 10:30:100'
++ rm /etc/ssh/sshd_config.bak
++ echo 'Remediating rule 270/277: '\''sshd_use_approved_ciphers'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sshd_approved_ciphers=aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
++ sed_command=('sed' '-i')
++ test -L /etc/ssh/sshd_config
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=Ciphers
++ printf -v formatted_output '%s %s' Ciphers aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr
++ LC_ALL=C
++ grep -q -m 1 -i -e '^Ciphers\>' /etc/ssh/sshd_config
++ sed -i 's/^Ciphers\>.*/Ciphers aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr/gi' /etc/ssh/sshd_config
++ echo 'Remediating rule 271/277: '\''sshd_use_approved_kexs'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sshd_approved_kexs=ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256
++ sed_command=('sed' '-i')
++ test -L /etc/ssh/sshd_config
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=KexAlgorithms
++ printf -v formatted_output '%s %s' KexAlgorithms ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256
++ LC_ALL=C
++ grep -q -m 1 -i -e '^KexAlgorithms\>' /etc/ssh/sshd_config
++ sed -i 's/^KexAlgorithms\>.*/KexAlgorithms ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256/gi' /etc/ssh/sshd_config
++ echo 'Remediating rule 272/277: '\''sshd_use_approved_macs'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ sshd_approved_macs=hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512
++ sed_command=('sed' '-i')
++ test -L /etc/ssh/sshd_config
++ '[' -z '' ']'
++ cce=CCE
+++ sed 's/[\^=\$,;+]*//g'
++ stripped_key=MACs
++ printf -v formatted_output '%s %s' MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512
++ LC_ALL=C
++ grep -q -m 1 -i -e '^MACs\>' /etc/ssh/sshd_config
++ sed -i 's/^MACs\>.*/MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-256,hmac-sha2-512/gi' /etc/ssh/sshd_config
++ echo 'Remediating rule 273/277: '\''sshd_configure_allow_groups'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_allow_groups_valid=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ default_value=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ '[' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a '!=' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a ']'
++ echo 'Remediating rule 274/277: '\''sshd_configure_allow_users'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_allow_users_valid=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ default_value=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ '[' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a '!=' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a ']'
++ echo 'Remediating rule 275/277: '\''sshd_configure_deny_groups'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_deny_groups_valid=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ default_value=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ '[' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a '!=' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a ']'
++ echo 'Remediating rule 276/277: '\''sshd_configure_deny_users'\'''
++ '[' '!' -f /.dockerenv ']'
++ '[' '!' -f /run/.containerenv ']'
++ var_sshd_deny_users_valid=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ default_value=e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a
++ '[' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a '!=' e39d05b72f25767869d44391919434896bb055772d7969f74472032b03bc18418911f3b0e6dd47ff8f3b2323728225286c3cb36914d28dc7db40bdd786159c0a ']'
++ echo 'Remediating rule 277/277: '\''package_xorg-x11-server-common_removed'\'''
++ DEBIAN_FRONTEND=noninteractive
++ apt-get remove -y xserver-xorg
+
